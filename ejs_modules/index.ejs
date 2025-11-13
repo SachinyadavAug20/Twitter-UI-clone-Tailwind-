@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweeter</title>
+    <link rel="stylesheet" href="output.css">
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            font-family: "Poppins", sans-serif;
+            transition: all 150ms ease-in-out;
+        }
+        </style>
+        <link rel="icon" type="image/x-icon" href="Assets/favicon.png">
+</head> 
+
+<body class="bg-black text-white">
+    <div class="flex bg-black">
+        <!-- <div class="Left_side_menu"> -->
+            <%- include('left.html') %>
+        <!-- </div> -->
+        <div class="Center_main_content sm:border border-x-gray-600 sm:w-[60vw] w-fit sm:outline-0 outline outline-gray-300 h-screen border-y-black overflow-hidden ">
+                <%- include('center.html') %>
+        </div>
+        <div class="Right_list w-[30vw] h-screen sm:block hidden overflow-auto ">
+                <%- include('right.html') %>
+        </div>
+    </div>
+</body>
+
+</html>
