@@ -4,9 +4,7 @@ This project is a Twitter-like social media feed layout created as a learning .T
 
 ## Demo
 
-<p align="center">
-  <img src="css/Assets/demo.gif" alt="Project Demo GIF" width="80%">
-</p>
+![Demo](css/Assets/demo.gif)
 
 ## Features
 
